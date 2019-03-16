@@ -115,6 +115,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="addTheNote.c" />
+    <ClCompile Include="clear.c" />
+    <ClCompile Include="createFile.c" />
+    <ClCompile Include="deleteTheNote.c" />
+    <ClCompile Include="editTheNote.c" />
+    <ClCompile Include="fillFile.c" />
+    <ClCompile Include="findTheNote.c" />
+    <ClCompile Include="findThePlaceOfNote.c" />
+    <ClCompile Include="fopenCorrectly.c" />
+    <ClCompile Include="getClearly.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="printMultStr.c" />
+    <ClCompile Include="outputTheNotes.c" />
+    <ClCompile Include="printProduct.c" />
+    <ClCompile Include="raise_val_error.c" />
+    <ClCompile Include="readParam.c" />
+    <ClCompile Include="readProduct.c" />
+    <ClCompile Include="sortTheNotes.c" />
+    <ClCompile Include="tools_9.h" />
+    <ClCompile Include="validate_fname.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="product.h" />
+    <ClInclude Include="usefulFunc_9.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

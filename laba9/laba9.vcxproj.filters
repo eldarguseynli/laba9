@@ -13,5 +13,84 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\tools_9">
+      <UniqueIdentifier>{b202e1d6-c792-4b6a-99d0-05add0503ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\usefulFunc_9.h">
+      <UniqueIdentifier>{255f16a1-cdf1-4802-aaa1-f1ef3160c4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\prod_funcs">
+      <UniqueIdentifier>{01f4e698-813a-453c-8ce0-9854b91555df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools_9.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="raise_val_error.c">
+      <Filter>Source Files\tools_9</Filter>
+    </ClCompile>
+    <ClCompile Include="validate_fname.c">
+      <Filter>Source Files\tools_9</Filter>
+    </ClCompile>
+    <ClCompile Include="fopenCorrectly.c">
+      <Filter>Source Files\tools_9</Filter>
+    </ClCompile>
+    <ClCompile Include="fillFile.c">
+      <Filter>Source Files\tools_9</Filter>
+    </ClCompile>
+    <ClCompile Include="findThePlaceOfNote.c">
+      <Filter>Source Files\tools_9</Filter>
+    </ClCompile>
+    <ClCompile Include="createFile.c">
+      <Filter>Source Files\usefulFunc_9.h</Filter>
+    </ClCompile>
+    <ClCompile Include="sortTheNotes.c">
+      <Filter>Source Files\usefulFunc_9.h</Filter>
+    </ClCompile>
+    <ClCompile Include="printProduct.c">
+      <Filter>Source Files\usefulFunc_9.h</Filter>
+    </ClCompile>
+    <ClCompile Include="outputTheNotes.c">
+      <Filter>Source Files\usefulFunc_9.h</Filter>
+    </ClCompile>
+    <ClCompile Include="findTheNote.c">
+      <Filter>Source Files\usefulFunc_9.h</Filter>
+    </ClCompile>
+    <ClCompile Include="editTheNote.c">
+      <Filter>Source Files\usefulFunc_9.h</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteTheNote.c">
+      <Filter>Source Files\usefulFunc_9.h</Filter>
+    </ClCompile>
+    <ClCompile Include="readParam.c">
+      <Filter>Source Files\tools_9</Filter>
+    </ClCompile>
+    <ClCompile Include="clear.c">
+      <Filter>Source Files\tools_9</Filter>
+    </ClCompile>
+    <ClCompile Include="readProduct.c">
+      <Filter>Source Files\prod_funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="printMultStr.c">
+      <Filter>Source Files\tools_9</Filter>
+    </ClCompile>
+    <ClCompile Include="getClearly.c">
+      <Filter>Source Files\tools_9</Filter>
+    </ClCompile>
+    <ClCompile Include="addTheNote.c">
+      <Filter>Source Files\usefulFunc_9.h</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="usefulFunc_9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="product.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
