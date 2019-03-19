@@ -128,10 +128,10 @@
     <ClCompile Include="main.c" />
     <ClCompile Include="printMultStr.c" />
     <ClCompile Include="outputTheNotes.c" />
-    <ClCompile Include="printProduct.c" />
     <ClCompile Include="raise_val_error.c" />
+    <ClCompile Include="readNumClearly.c" />
     <ClCompile Include="readParam.c" />
-    <ClCompile Include="readProduct.c" />
+    <ClCompile Include="freadProduct.c" />
     <ClCompile Include="sortTheNotes.c" />
     <ClCompile Include="tools_9.h" />
     <ClCompile Include="validate_fname.c" />

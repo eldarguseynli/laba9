@@ -12,5 +12,5 @@ void read_validateParam(char *atr_name, char *param, int n) {
 }
 
 void readDoubleParam(char *atr_name, int *double_param) {
-	printf("%s: ", atr_name); if (!(scanf("%lf", double_param))) raise_val_error("You had to input number"); clear();
+	printf("%s: ", atr_name); readDoubleClearly(double_param); if (*double_param < 0) raise_val_error("Value of price must be not negative");
 }

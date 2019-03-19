@@ -10,4 +10,4 @@ typedef struct {
 	double price;
 }product;
 
-int readProduct(product *p);
+int freadProduct(product *p, FILE *f);

@@ -5,9 +5,10 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int createFile(char *name, int n);
+int createFile(char *name);
+int addTheNote(char *name);
 int deleteTheNote(char *name);
-product* findTheNote(char *name, product *buf);
+int findTheNote(char *name);
 int editTheNote(char *name);
 int sortTheNotes(char *name);
 int outputTheNotes(char *name);

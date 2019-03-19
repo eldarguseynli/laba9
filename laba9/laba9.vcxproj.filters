@@ -51,9 +51,6 @@
     <ClCompile Include="sortTheNotes.c">
       <Filter>Source Files\usefulFunc_9.h</Filter>
     </ClCompile>
-    <ClCompile Include="printProduct.c">
-      <Filter>Source Files\usefulFunc_9.h</Filter>
-    </ClCompile>
     <ClCompile Include="outputTheNotes.c">
       <Filter>Source Files\usefulFunc_9.h</Filter>
     </ClCompile>
@@ -72,9 +69,6 @@
     <ClCompile Include="clear.c">
       <Filter>Source Files\tools_9</Filter>
     </ClCompile>
-    <ClCompile Include="readProduct.c">
-      <Filter>Source Files\prod_funcs</Filter>
-    </ClCompile>
     <ClCompile Include="printMultStr.c">
       <Filter>Source Files\tools_9</Filter>
     </ClCompile>
@@ -83,6 +77,12 @@
     </ClCompile>
     <ClCompile Include="addTheNote.c">
       <Filter>Source Files\usefulFunc_9.h</Filter>
+    </ClCompile>
+    <ClCompile Include="freadProduct.c">
+      <Filter>Source Files\prod_funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="readNumClearly.c">
+      <Filter>Source Files\tools_9</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

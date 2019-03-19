@@ -11,9 +11,9 @@ int main()
 		"5. Edit the note in the database.\n"
 		"6. Sort the notes in the database.\n"
 		"7. Output data in the terminal from the database.\n\nYour choice: "
-	
+
 	);
-	int choice; if (!(scanf("%d", &choice))) raise_val_error("You had to input number. Termination of the programm."); clear();
+	int choice;  readIntClearly(&choice);
 
 	char name[12];
 	printf("\nInput the name of database file: ");
@@ -26,19 +26,13 @@ int main()
 	{
 	case 1:
 	{
-		int n;
-		printf("Input how much goods you want to input to the database: ");
-		if (!(scanf("%d", &n))) raise_val_error("You had to input number. Termination of the programm."); clear();
-		createFile(name, n);  //the name can be the same and we should create new file. createFile should consist of fillFile
+		createFile(name);  //the name can be the same and we should create new file. createFile should consist of fillFile
 							  //chech the scope of these to chanks
 		break;
 	}
 	case 2:
 	{
-		int *n = malloc(sizeof(int));
-		printf("Input how much goods you want to add to the database: ");
-		if (!(scanf("%d", n))) raise_val_error("You had to input number");
-		//fillFile(&f, name, n); //PRICE CANT BE NEGATIVE
+		addTheNote(name);
 		break;
 	}
 	case 3:
@@ -49,8 +43,7 @@ int main()
 	}
 	case 4:
 	{
-		product *p;
-		printProduct(findTheNote(name, &p));
+		findTheNote(name);
 		break;
 	}
 	case 5:
@@ -68,7 +61,7 @@ int main()
 		break;
 	}
 	default:
-		raise_val_error("You`ve inputed unvalid data. Terminating the programm");
+		raise_val_error("You`ve inputed unvalid data. Choose number between 1 and 7. Terminating the programm");
 		break;
 	}
 

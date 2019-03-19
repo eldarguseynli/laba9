@@ -1,3 +1,4 @@
+
 #include "usefulFunc_9.h"
 
 int deleteTheNote(char *name) {
