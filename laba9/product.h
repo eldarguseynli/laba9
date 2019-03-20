@@ -11,3 +11,4 @@ typedef struct {
 }product;
 
 int freadProduct(product *p, FILE *f);
+int printProduct(product *prod);

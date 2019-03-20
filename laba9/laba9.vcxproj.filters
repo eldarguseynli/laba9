@@ -84,6 +84,9 @@
     <ClCompile Include="readNumClearly.c">
       <Filter>Source Files\tools_9</Filter>
     </ClCompile>
+    <ClCompile Include="printProduct.c">
+      <Filter>Source Files\prod_funcs</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="usefulFunc_9.h">
