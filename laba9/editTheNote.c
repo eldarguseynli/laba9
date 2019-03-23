@@ -13,14 +13,15 @@ int editTheNote(char *name) {
 	puts("\n\nThe parameters of the old product:\n");
 	printProduct(&prod);
 
-	puts("\nInput parameters of new product, if you do not want to change text parameter - input empty string,\nif you do not want to change price, input negative number:\n");
+	puts("\nInput parameters of new product, if you do not want to change text parameter - input empty string,"
+		"\nif you do not want to change price, input negative number:\n");
 
 	char name1[15], description[15], export_ctr[15]; double price;
 
 	readParam("Name", name1, 14);
 	readParam("Description", description, 14);
 	readParam("Country, which is exported", export_ctr, 14);
-	readDoubleParam("Price", &price);
+	printf("Price:"); readDoubleClearly(&price);
 
 	if (strlen(name1) > 1)  strcpy(prod.name, name1); 
 	if (strlen(description) > 1)  strcpy(prod.description, description); 

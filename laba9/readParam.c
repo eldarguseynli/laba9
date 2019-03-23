@@ -11,6 +11,6 @@ void read_validateParam(char *atr_name, char *param, int n) {
 	if (!strlen(param)) { raise_val_error("You`ve inputed empty string"); }
 }
 
-void readDoubleParam(char *atr_name, int *double_param) {
+void readDoubleParam(char *atr_name, double *double_param) {
 	printf("%s: ", atr_name); readDoubleClearly(double_param); if (*double_param < 0) raise_val_error("Value of price must be not negative");
 }

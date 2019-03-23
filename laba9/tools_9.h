@@ -12,7 +12,7 @@ int findThePlaceOfNote(FILE *f);
 int fillFile(FILE *f);
 void read_validateParam(char *atr_name, char *param, int n);
 void readParam(char *atr_name, char *param, int n);
-void readDoubleParam(char *atr_name, int *double_param);
+void readDoubleParam(char *atr_name, double *double_param);
 
 void clear(void);
 void getClearly(char *buf, int n);

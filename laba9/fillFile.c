@@ -1,6 +1,6 @@
 ﻿#include "tools_9.h"
 
-int fillFile(FILE *f) //replace from useful...
+int fillFile(FILE *f) 
 {
 	product prod;
 
